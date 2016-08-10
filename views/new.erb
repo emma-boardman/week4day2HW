@@ -1,0 +1,29 @@
+<h1>Order a shoo</h1>
+
+<form action="/shoe" method="post"> 
+   -->
+<label for="first_name">First Name:</label> <!-- for input field -->
+<input type="text" name="first_name"></input>
+
+<!-- params hash is created with the input name as the key value  -->
+<label for="last_name">Last Name:</label>
+<input type="text" name="last_name"></input>
+
+<label for="address">Address:</label>
+<input type="text" name="address"></input>
+
+<label for="size">Select a size:</label>
+<select name="size">
+<!-- <option></option> -->
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select>
+
+<label for="quantity">Quantity:</label>
+<input type="number" name="quantity">
+
+<input type="submit" value="Order Shoo(s)"></input>
+</form>
